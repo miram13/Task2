@@ -1,4 +1,4 @@
-# shopping-with-quarkus Project
+# code-with-quarkus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 

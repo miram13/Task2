@@ -24,7 +24,7 @@ public class TokenService {
     public String generateToken(String subject, String name, String... roles) {
         try {
             JwtClaims jwtClaims = new JwtClaims();
-            jwtClaims.setIssuer("DonauTech"); // change to your company
+            jwtClaims.setIssuer("DonauTech");
             jwtClaims.setJwtId(UUID.randomUUID().toString());
             jwtClaims.setSubject(subject);
             jwtClaims.setClaim(Claims.upn.name(), subject);
