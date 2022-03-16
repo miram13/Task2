@@ -13,6 +13,7 @@ public class Notify extends PanacheEntity {
         this.movie = movie;
 
 
+
     }
 
     @OneToOne
@@ -20,7 +21,9 @@ public class Notify extends PanacheEntity {
     @OneToOne
     private Movie movie;
 
+
     private String title;
+    private String seats;
 
     public Notify() {
 
@@ -46,10 +49,16 @@ public class Notify extends PanacheEntity {
         return movie;
     }
 
-    public void setProduct(Movie movie) {
+    public void setMovie(Movie movie) {
         this.movie = movie;
     }
+    public void setSeats(String seats) {
+        this.seats = seats;
+    }
 
+    public String getSeats() {
+        return seats;
+    }
 
 
 }

@@ -35,8 +35,8 @@ public class NotifyResource {
         String uname = ct.getUserPrincipal().getName();
         User user = User.find("email", uname).firstResult();
         notify.setUser(user);
-        notify.setProduct(movie);
-
+        notify.setMovie(movie);
+        notify.setSeats(notify.getSeats());
         notify.setTitle(movie.getTitle());
         notify.persist(notify);
     }
