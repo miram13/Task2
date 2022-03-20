@@ -38,6 +38,8 @@ public class NotifyResource {
         notify.setMovie(movie);
         notify.setSeats(notify.getSeats());
         notify.setTitle(movie.getTitle());
+        notify.setFirstName(user.getFirstName());
+        notify.setLastName(user.getLastName());
         notify.persist(notify);
     }
 

@@ -177,6 +177,46 @@ INSERT INTO movie(id,title,price,img) VALUES (5,
 
                          299,
                         'https://images.moviesanywhere.com/3d3fd427d5b3a362e024933dbc203623/c37386d4-b7c2-49c9-b487-2ba6c0ec5879.jpg');
-
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(1,'A1','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(2,'A2','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(3,'A3','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(4,'A4','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(5,'A5','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(6,'A6','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(7,'A7','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(8,'A8','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(9,'A9','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(10,'A10','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(11,'B1','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(12,'B2','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(13,'B3','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(14,'B4','reserved');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(15,'B5','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(16,'B6','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(17,'B7','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(18,'B8','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(19,'B9','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(20,'B10','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(21,'C1','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(22,'C2','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(23,'C3','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(24,'C4','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(25,'C5','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(26,'C6','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(27,'C7','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(28,'C8','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(29,'C9','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(30,'C10','reserved');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(31,'D1','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(32,'D2','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(33,'D3','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(34,'D4','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(35,'D5','locked');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(36,'D6','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(37,'D7','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(38,'D8','empty');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(39,'D9','reserved');
+INSERT INTO SEAT(id,seat_number,seat_status) VALUES(40,'D10','empty');
+INSERT INTO BOOKING(id,movie_id,seat_number,user_id) VALUES(1,1,'A1',1);
 
 
