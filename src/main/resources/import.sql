@@ -217,6 +217,6 @@ INSERT INTO SEAT(id,seat_number,seat_status) VALUES(37,'D7','empty');
 INSERT INTO SEAT(id,seat_number,seat_status) VALUES(38,'D8','empty');
 INSERT INTO SEAT(id,seat_number,seat_status) VALUES(39,'D9','reserved');
 INSERT INTO SEAT(id,seat_number,seat_status) VALUES(40,'D10','empty');
-INSERT INTO BOOKING(id,movie_id,seat_number,user_id) VALUES(1,1,'A1',1);
+--INSERT INTO BOOKING(id,movie_id,seat_number,user_id) VALUES(1,1,'A1',1);
 
 

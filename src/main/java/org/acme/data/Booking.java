@@ -10,8 +10,17 @@ public class Booking extends PanacheEntity {
     @OneToOne
     Movie movie;
     String seat_number;
+    private String title;
     @OneToOne
     User user;
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
 
     public void setMovie(Movie movie) {
         this.movie = movie;

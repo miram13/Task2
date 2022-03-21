@@ -39,6 +39,7 @@ public class BookingResource {
             Booking booking = new Booking();
             booking.setUser(user);
             booking.setMovie(movie);
+            booking.setTitle(movie.getTitle());
             booking.setSeatNumber(seat_number);
             Booking.persist(booking);
         }
